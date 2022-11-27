@@ -13,3 +13,11 @@ for (int i = 0; i < n; i++)
         subarray[i] = array[i];
     }
 }
+Console.Write("Строки длиной 3 символа и менее: ");
+for (int i = 0; i < n; i++)
+{
+    if (subarray[i] != null)
+    {
+        Console.Write($"\"{subarray[i]}\" ");
+    }
+}
